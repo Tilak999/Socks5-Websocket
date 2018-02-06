@@ -1,0 +1,1 @@
+node local.js -s shurikan117-ss5.herokuapp.com -l 1080 -m aes-256-cfb -k supersaiyan -p 80
