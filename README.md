@@ -73,7 +73,7 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 4. Rinse, Repeat and Profit?! (Heroku offers a bandwidth of 2TB!)
 
-### Cyphers Available
+## Cyphers Available
 
 Add one of them to METHOD in Part 01 - Step 03. It is recommended to use aes-256-cfb
 
