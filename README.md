@@ -5,6 +5,8 @@ Original Repo - [Here](https://github.com/VincentChanX/shadowsocks-over-websocke
 
 Original Readme - [Here](https://github.com/JDsnyke/Socks5-Websocket/blob/master/ORIGINAL-README.md)
 
+For a more complete mobile and desktop solution visit [Here](https://github.com/JDsnyke/V2Ray-Heroku)
+
 ## Setup 
 
 ### Part 01
