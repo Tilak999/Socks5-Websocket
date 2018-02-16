@@ -1,11 +1,15 @@
-# Socks5-Websocket
-Heroku deployable Shadowsocks
+# Socks5 Websocket
+Heroku deployable Shadowsocks :heartpulse:
+
+---
 
 Original Repo - [Here](https://github.com/VincentChanX/shadowsocks-over-websocket)
 
 Original Readme - [Here](https://github.com/JDsnyke/Socks5-Websocket/blob/master/ORIGINAL-README.md)
 
-For a more complete mobile and desktop solution visit [Here](https://github.com/JDsnyke/V2Ray-Heroku)
+For a more complete mobile and desktop solution - [Here](https://github.com/JDsnyke/V2Ray-Heroku)
+
+---
 
 ## Setup 
 
@@ -73,7 +77,7 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 3. To restart your proxy, run ```socks5.bat```, confirm it with ```test.bat``` (this window can be closed) and set your SwitchyOmega profile to ```local-proxy```
 
-4. Rinse, Repeat and Profit?! (Heroku offers a bandwidth of 2TB!)
+4. Rinse, Repeat and Profit?! (Heroku offers a monthly bandwidth of 2TB!)
 
 ## Cyphers Available
 
