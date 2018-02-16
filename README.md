@@ -1,15 +1,15 @@
 # Socks5 Websocket
-Heroku deployable Shadowsocks :heartpulse:
+Heroku deployable Shadowsocks :see_no_evil: :hear_no_evil: :speak_no_evil:
 
----
+## Information
 
 Original Repo - [Here](https://github.com/VincentChanX/shadowsocks-over-websocket)
 
 Original Readme - [Here](https://github.com/JDsnyke/Socks5-Websocket/blob/master/ORIGINAL-README.md)
 
-For a more complete mobile and desktop solution - [Here](https://github.com/JDsnyke/V2Ray-Heroku)
+## Alternative
 
----
+For a more complete mobile and desktop solution - [Here](https://github.com/JDsnyke/V2Ray-Heroku)
 
 ## Setup 
 
@@ -98,3 +98,7 @@ Add one of them to METHOD in Part 01 - Step 03. It is recommended to use aes-256
 * camellia-256-cfb
 * camellia-192-cfb
 * camellia-128-cfb
+
+## License
+
+Uses the [GNU](https://github.com/JDsnyke/Socks5-Websocket/blob/master/LICENSE) license.
