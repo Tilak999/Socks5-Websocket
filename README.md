@@ -99,6 +99,10 @@ Add one of them to METHOD in Part 01 - Step 03. It is recommended to use aes-256
 * camellia-192-cfb
 * camellia-128-cfb
 
+## Credit
+
+Complete credit to [VincentChanX](https://github.com/VincentChanX) and his [Repo](https://github.com/VincentChanX/shadowsocks-over-websocket). Thank you for your hard work!
+
 ## License
 
 Uses the [GNU](https://github.com/JDsnyke/Socks5-Websocket/blob/master/LICENSE) license.
