@@ -1,4 +1,7 @@
 # Socks5 Websocket
+
+![GitHub last commit](https://img.shields.io/github/last-commit/JDsnyke/Socks5-Websocket.svg) ![GitHub issues](https://img.shields.io/github/issues/JDsnyke/Socks5-Websocket.svg) ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/JDsnyke/Socks5-Websocket.svg) ![license](https://img.shields.io/github/license/JDsnyke/Socks5-Websocket.svg)
+
 Heroku deployable Shadowsocks :see_no_evil: :hear_no_evil: :speak_no_evil:
 
 ## Information
