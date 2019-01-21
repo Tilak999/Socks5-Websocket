@@ -7,7 +7,8 @@ If you are in restricted environment where internet is restricted then this proj
 This repo containes code that could be deployed on free [Heroku](https://heroku.com/) dyno.
 
 What happens:
-All your local network request are tunneled to [Heroku](https://heroku.com/) over web-sockets and then the request are sent to therir destination servers.
+
+All your local network request are tunneled to [Heroku](https://heroku.com/) over Websocket and then the request are sent to destination servers.
 
 ## Setup 
 
@@ -35,23 +36,23 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 ### Part 03
 
-1. Go to a directory of your choice on your PC/Mac (e.g. Desktop )
+1. Go to a directory of your choice on your PC/Mac (e.g. Desktop)
 
-2. Run CMD/Bash within that directory / folder.
+2. Run CMD/terminal within that directory / folder.
 
-3. Paste ```git clone https://github.com/JDsnyke/Socks5-Websocket.git``` and hit enter
+3. Paste ```git clone https://github.com/Tilak999/Socks5-Websocket.git``` and hit enter.
 
 4. Paste ```npm install``` and hit enter, if this doesn't work then extract the node_modules.zip to node_modules. 
 
 5. Edit ```local-config.json``` and insert your heroku app name as well as your PASSWORD from Part 01 - Step 3
 
-6. Save changes and Run ```npm local```
+6. Save changes and Run ```npm run local```
 
 7. It should say ```local is listening on 127.0.0.1:1080``` (Do not close this terminal window)
     
 ### Part 04
 
-1. Install [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) for your browser
+1. Install [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) for your browser or sideload the chrome-extension given in this repo.
 
 2. Create a new profile called ```local-proxy```
 
@@ -65,7 +66,7 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 ### Part 05
 
-1. To end your session, kill the terminal window where ```npm local``` is running and switch your profile on SwitchyOmega from ```local-proxy``` to ```direct```  
+1. To end your session, kill the terminal window where ```npm run local``` is running and switch your profile on SwitchyOmega from ```local-proxy``` to ```direct```  
 
 2. Feel free to edit and create your own auto-switch profile on SwitchyOmega
 
