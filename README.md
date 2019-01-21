@@ -1,18 +1,13 @@
 # Socks5 Websocket
-
-![GitHub last commit](https://img.shields.io/github/last-commit/JDsnyke/Socks5-Websocket.svg) ![GitHub issues](https://img.shields.io/github/issues/JDsnyke/Socks5-Websocket.svg) ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/JDsnyke/Socks5-Websocket.svg) ![license](https://img.shields.io/github/license/JDsnyke/Socks5-Websocket.svg)
-
-Heroku deployable Shadowsocks :see_no_evil: :hear_no_evil: :speak_no_evil:
-
-## Information
-
 Original Repo - [Here](https://github.com/VincentChanX/shadowsocks-over-websocket)
 
-Original Readme - [Here](https://github.com/JDsnyke/Socks5-Websocket/blob/master/ORIGINAL-README.md)
+## Why this
+If you are in restricted environment where internet is restricted then this project is made for you.
 
-## Alternative
+This repo containes code that could be deployed on free [Heroku](https://heroku.com/) dyno.
 
-For a more complete mobile and desktop solution - [Here](https://github.com/JDsnyke/V2Ray-Heroku)
+What happens:
+All your local network request are tunneled to [Heroku](https://heroku.com/) over web-sockets and then the request are sent to therir destination servers.
 
 ## Setup 
 
@@ -40,23 +35,19 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 ### Part 03
 
-1. Go to a directory of your choice on your PC (e.g. D:\Documents )
+1. Go to a directory of your choice on your PC/Mac (e.g. Desktop )
 
-2. Run CMD within that directory / folder (right click while holding shift for windows)
+2. Run CMD/Bash within that directory / folder.
 
 3. Paste ```git clone https://github.com/JDsnyke/Socks5-Websocket.git``` and hit enter
 
-4. Paste ```npm-install``` and hit enter
+4. Paste ```npm install``` and hit enter, if this doesn't work then extract the node_modules.zip to node_modules. 
 
-5. Edit ```socks5.bat``` with notepad and insert your heroku app name as well as your PASSWORD from Part 01 - Step 3
+5. Edit ```local-config.json``` and insert your heroku app name as well as your PASSWORD from Part 01 - Step 3
 
-6. Save changes and Run ```socks5.bat``` 
+6. Save changes and Run ```npm local```
 
-7. It should say ```local is listening on 127.0.0.1:1080``` (Do not close this CMD window)
-
-8. Confirm it by running ```test.bat```
-
-    * You should see 127.0.0.1:1080 appear on the list
+7. It should say ```local is listening on 127.0.0.1:1080``` (Do not close this terminal window)
     
 ### Part 04
 
@@ -74,13 +65,11 @@ Download and Install both [NodeJS](https://nodejs.org/en/download/) and [Git](ht
 
 ### Part 05
 
-1. To end your session, kill the CMD window opened by ```socks5.bat``` and switch your profile on SwitchyOmega from ```local-proxy``` to ```direct```  
+1. To end your session, kill the terminal window where ```npm local``` is running and switch your profile on SwitchyOmega from ```local-proxy``` to ```direct```  
 
 2. Feel free to edit and create your own auto-switch profile on SwitchyOmega
 
-3. To restart your proxy, run ```socks5.bat```, confirm it with ```test.bat``` (this window can be closed) and set your SwitchyOmega profile to ```local-proxy```
-
-4. Rinse, Repeat and Profit?! (Heroku offers a monthly bandwidth of 2TB!)
+3. Rinse, Repeat and Profit?! (Heroku offers a monthly bandwidth of 2TB!)
 
 ## Cyphers Available
 

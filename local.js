@@ -1,9 +1,9 @@
-const TCPRelay = require('./tcprelay').TCPRelay;
+const TCPRelay = require('./lib/tcprelay').TCPRelay;
 const local = require('commander');
-const constants = require('./constants');
+const config = require('./local-config.json')
 
 local
-    .version(constants.VERSION)
+    .version('1.0.1')
     .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
     .option('-k --password <password>', 'password')
     .option('-s --server-address <address>', 'server address')
@@ -16,11 +16,11 @@ local
 
 var relay = new TCPRelay({
     localAddress: local.localAddress || '127.0.0.1',
-    localPort: local.localPort || 1080,
-    serverAddress: local.serverAddress || '127.0.0.1',
-    serverPort: local.serverPort || 8388,
-    password: local.password || 'shadowsocks-over-websocket',
-    method: local.method || 'aes-256-cfb'
+    localPort: local.localPort || config.localPort ||1080,
+    serverAddress: local.serverAddress || config.serverAddress ||'127.0.0.1',
+    serverPort: local.serverPort || config.serverPort ||8388,
+    password: local.password || config.password ||'shadowsocks-over-websocket',
+    method: local.method || config.method ||'aes-256-cfb'
 }, true);
 relay.setLogLevel(local.logLevel);
 relay.setLogFile(local.logFile);

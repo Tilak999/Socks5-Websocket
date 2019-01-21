@@ -1,0 +1,7 @@
+{
+    "localPort": 1080,
+    "serverAddress": "app.herokuapp.com",
+    "serverPort": 80,
+    "password": "super-secret-password",
+    "method": "aes-256-cfb"
+}

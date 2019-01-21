@@ -1,12 +1,12 @@
-const TCPRelay = require('./tcprelay').TCPRelay;
+const TCPRelay = require('./lib/tcprelay').TCPRelay;
 const server = require('commander');
-const constants = require('./constants');
 const throng = require('throng');
 const log4js = require('log4js');
+
 const logger = log4js.getLogger('server');
 
 server
-    .version(constants.VERSION)
+    .version('1.0.1')
     .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
     .option('-k --password <password>', 'password')
     .option('-s --server-address <address>', 'server address')
